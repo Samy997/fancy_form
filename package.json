@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://samy997.github.io/fancy_form",
   "scripts": {
-    "sass": "node-sass -w scss/ -o css/"
+    "sass": "node-sass -w scss/ -o css/",
+    "deploy": "gh-pages -d ./"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.11.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
